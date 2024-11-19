@@ -7,6 +7,16 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.qhenshaw.charactermovement": {
+      "version": "https://github.com/qhenshaw/CharacterMovement.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.cinemachine": "2.8.9",
+        "com.unity.inputsystem": "1.4.4"
+      },
+      "hash": "fca2ea53fd9988fe36f5c3a5a0000cee89bf57f7"
+    },
     "com.unity.animation.rigging": {
       "version": "1.3.0",
       "depth": 1,
