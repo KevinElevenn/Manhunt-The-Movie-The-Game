@@ -17,6 +17,22 @@
       },
       "hash": "fca2ea53fd9988fe36f5c3a5a0000cee89bf57f7"
     },
+    "com.qhenshaw.sharedsampleassets": {
+      "version": "https://github.com/qhenshaw/SharedSampleAssets.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.2d.sprite": "1.0.0",
+        "com.unity.inputsystem": "1.4.4"
+      },
+      "hash": "99f25079a1f39086e43bc4fabb1a60d1e413e0ff"
+    },
+    "com.unity.2d.sprite": {
+      "version": "1.0.0",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {}
+    },
     "com.unity.animation.rigging": {
       "version": "1.3.0",
       "depth": 1,
