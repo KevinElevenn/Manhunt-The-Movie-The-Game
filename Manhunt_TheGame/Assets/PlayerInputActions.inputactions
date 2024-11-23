@@ -40,6 +40,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Anim1",
+                    "type": "Button",
+                    "id": "87633a67-a6da-4de7-aca9-7c8ee35fe5cc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -282,6 +291,17 @@
                     "processors": "",
                     "groups": "Gamepad",
                     "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "85942b5c-12ef-4a25-be02-e5f8bd58b6ed",
+                    "path": "<Keyboard>/minus",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Anim1",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
