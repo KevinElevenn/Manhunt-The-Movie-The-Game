@@ -42,9 +42,9 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Anim1",
+                    "name": "Twerk",
                     "type": "Button",
-                    "id": "87633a67-a6da-4de7-aca9-7c8ee35fe5cc",
+                    "id": "53fd2344-3986-4ac1-bddf-af746ce859fe",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -296,12 +296,12 @@
                 },
                 {
                     "name": "",
-                    "id": "85942b5c-12ef-4a25-be02-e5f8bd58b6ed",
-                    "path": "<Keyboard>/minus",
+                    "id": "4e0ce1b4-06e3-405f-aebb-a4303bdaee38",
+                    "path": "<Keyboard>/semicolon",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "Anim1",
+                    "action": "Twerk",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -7,11 +7,23 @@ public class onDemandAnimationController : MonoBehaviour
 {
         [SerializeField] private GameObject _theActor;
         [SerializeField] private InputActionAsset _playerInputAction;
+        [SerializeField] private Animator _animator;
 
-    private void _playAnim1(InputValue value)
+    private void Start()
     {
-        Debug.Log("Anim1 has been played");
-        _theActor.GetComponent<Animator> ().Play ("Anim1");
+        _animator = _theActor.GetComponent<Animator>();
+        
+        //_theActor.GetComponent<Animator> ().Play ("Anim1");
     }
 
+    private void Update() 
+    {
+        
+    }
+
+    public void Twerk()
+    {
+        Debug.Log("Anim1 has been played");
+        _animator.SetTrigger ("Twerk");
+    }
 }
