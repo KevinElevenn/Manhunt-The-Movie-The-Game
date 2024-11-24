@@ -9,7 +9,7 @@ public class onDemandAnimationController : MonoBehaviour
         [SerializeField] private InputActionAsset _playerInputAction;
         [SerializeField] private Animator _animator;
 
-    private void Start()
+    private void Awake()
     {
         _animator = _theActor.GetComponent<Animator>();
         
@@ -21,7 +21,7 @@ public class onDemandAnimationController : MonoBehaviour
         
     }
 
-    public void Twerk()
+    public void OnTwerk()
     {
         Debug.Log("Anim1 has been played");
         _animator.SetTrigger ("Twerk");
